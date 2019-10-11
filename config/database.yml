@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: ikedayusuke_sample_production
+  database: ikedayusuke_sample_production_capistrano
   username: ikedayusuke_sample
   password: <%= ENV['IKEDAYUSUKE_SAMPLE_DATABASE_PASSWORD'] %>
