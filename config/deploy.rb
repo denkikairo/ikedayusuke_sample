@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-set :application, "my_app_name"
-set :repo_url, "git@github.com:denkikairo/sample_app_for_rspec-1.git"
+set :application, "aws-study-simple-app"
+set :repo_url, "git@github.com:denkikairo/ikedayusuke_sample.git"
 set :user, 'ikeda'
 set :deploy_to, "/var/www/aws-study-simple-app"
 set :linked_files, %w[config/master.key config/database.yml]
